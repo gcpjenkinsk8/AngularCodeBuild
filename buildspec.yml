@@ -9,7 +9,6 @@ phases:
       nodejs: 12
     commands:
         - echo Installing source NPM dependencies...
-        - ng --version
         - npm install
         - npm install -g @angular/cli@12.2.18
        
