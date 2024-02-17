@@ -1,5 +1,6 @@
 version: 0.2
 
+
 env:
     variables:
         BUILD_FOLDER: "dist"
@@ -21,3 +22,4 @@ artifacts:
         - '**/*'
     base-directory: 'dist/Angular8JwtAuth*'
     discard-paths: yes
+
