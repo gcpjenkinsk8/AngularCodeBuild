@@ -10,7 +10,7 @@ phases:
       nodejs: 12
     commands:
         - echo Installing source NPM dependencies...
-        - echo "Building on branch: $CODEBUILD_SOURCE_VERSION"
+        - echo "Building on branch $CODEBUILD_SOURCE_VERSION"
         - echo "Current branch is $GITHUB_REF" 
         - npm install
         - npm install -g @angular/cli@12.2.18
