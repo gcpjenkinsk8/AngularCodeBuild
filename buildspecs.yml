@@ -2,8 +2,6 @@ version: 0.2
 
 env:
     variables:
-        CACHE_CONTROL: "86400"
-        S3_BUCKET: "http://datingapp-s3-frontend.s3-website.us-east-2.amazonaws.com/"
         BUILD_FOLDER: "dist"
 phases:
   install:
