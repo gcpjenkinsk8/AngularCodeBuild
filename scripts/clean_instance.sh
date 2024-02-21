@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Define the source directory
-SOURCE_DIR="/abc"
+SOURCE_DIR="/home/ec2-user/abc/"
 
 # Define the backup directory
-BACKUP_DIR="/bkp"
+BACKUP_DIR="/home/ec2-user/bkp/"
 
 # Create the backup directory if it doesn't exist
 mkdir -p "$BACKUP_DIR"
